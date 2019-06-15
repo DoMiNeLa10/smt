@@ -1,7 +1,7 @@
 #+TITLE: smt - disable and enable SMT on the fly
 
-This script provides a convienient way to disable and enable SMT (known as
-HyperThreading on Intel chips) on the fly. This allows to turn off SMT when
+This script provides a convenient way to disable and enable SMT (known as
+Hyper-Threading on Intel chips) on the fly. This allows to turn off SMT when
 desired to improve security on Intel chips ([[https://en.wikipedia.org/wiki/Foreshadow_(security_vulnerability)][L1TF]] and [[https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling][MDS]] can't be fully
 mitigated without disabling HT).
 
@@ -11,7 +11,7 @@ coreutils.
 
 * Installation
 Put the =smt= file from this repository somewhere in your ~PATH~. Since this
-scipt requires root access, you might want to setuid it.
+script requires root access, you might want to setuid it.
 
 * Usage
 #+BEGIN_SRC sh
