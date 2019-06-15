@@ -39,6 +39,7 @@ case $1 in
     *)
         echo "Usage:"
         echo "	$(basename "$0") [on|off]"
+        exit 1
         ;;
 esac
 
